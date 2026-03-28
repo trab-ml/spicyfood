@@ -1,16 +1,16 @@
 <template>
     <header>
-        <div className="navbar bg-base-100 shadow-sm">
-            <div className="navbar-start">
-                <div className="dropdown">
+        <div class="navbar shadow-sm text-(--primary) gap-2.75">
+            <div class="navbar-start">
+                <div class="dropdown">
                     <div
                         tabIndex="{0}"
                         role="button"
-                        className="btn btn-ghost btn-circle"
+                        class="btn btn-ghost btn-circle"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-5 w-5"
+                            class="h-10 w-10 text-(--primary) font-black"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -25,19 +25,19 @@
                     </div>
                     <ul
                         tabIndex="-1"
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+                        class="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow font-bold"
                     >
-                        <li><a>{{ $t("header.navbarStart.reserve") }}</a></li>
-                        <li><a>{{ $t("header.navbarStart.news") }}</a></li>
-                        <li><a>{{ $t("header.navbarStart.contact") }}</a></li>
+                        <li><a class="text-lg">{{ $t("header.navbarStart.reserve") }}</a></li>
+                        <li><a class="text-lg">{{ $t("header.navbarStart.news") }}</a></li>
+                        <li><a class="text-lg">{{ $t("header.navbarStart.contact") }}</a></li>
                     </ul>
                 </div>
             </div>
-            <div className="navbar-center">
-                <a className="btn btn-ghost text-xl">{{ $t("header.navbarCenter.logoText") }}</a>
+            <div class="navbar-center">
+                <a class="inline-block text-2xl font-extrabold">{{ $t("header.navbarCenter.logoText") }}</a>
             </div>
-            <div className="navbar-end">
-                <a className="btn rounded-xl">{{ $t("header.navbarStart.reserve") }}</a>
+            <div class="navbar-end">
+                <a class="btn rounded-xl text-md text-(--primary) border border-solid border-(--primary) md:text-lg">{{ $t("header.navbarStart.reserve") }}</a>
             </div>
         </div>
     </header>
