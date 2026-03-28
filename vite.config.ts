@@ -9,7 +9,8 @@ export default defineConfig({
     resolve: {
         alias: {
             "@": path.resolve(__dirname, "./src"),
+            "vmdi": path.resolve(__dirname, "node_modules/vue-material-design-icons"),
         },
-        extensions: [".vue"],
+        extensions: [".js", ".ts", ".vue", ".json"],
     },
 });

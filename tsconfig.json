@@ -5,10 +5,11 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
-    "baseUrl": "../",
+    "composite": true,
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src"],
+      "@/*": ["src/*"],
       "icons": ["./node_modules/vue-material-design-icons"],
     }
-  }
+  },
 }
