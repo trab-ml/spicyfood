@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="navbar shadow-sm text-(--primary) gap-2.75">
+        <div class="navbar shadow-sm text-(--primary)">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div
@@ -33,11 +33,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="navbar-center">
-                <a class="inline-block text-2xl font-extrabold">{{ $t("header.navbarCenter.logoText") }}</a>
+            <div class="navbar-center me-10 sm:me-0">
+                <a class="inline-block text-2xl font--extrabold font-[1000]">{{ $t("header.navbarCenter.logoText") }}</a>
             </div>
             <div class="navbar-end">
-                <a class="btn rounded-xl text-md text-(--primary) border border-solid border-(--primary) md:text-lg">{{ $t("header.navbarStart.reserve") }}</a>
+                <a class="btn rounded-xl text-md text-(--classic-white) bg-(--primary) md:text-lg">{{ $t("header.navbarStart.reserve") }}</a>
             </div>
         </div>
     </header>

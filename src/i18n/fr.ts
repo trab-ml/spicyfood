@@ -1,7 +1,14 @@
 export const fr = {
     abbreviation: "Fr",
     homepage: {
-        description: "Site web de Spicy Food.",
+        metaDescription: "Site web de Spicy Food.",
+        headingOne: {
+            partOne: "Spiced",
+            partTwo: "to",
+            partThree: "Perfection",
+        },
+        label: "AUTHENTIC FLAVORS",
+        description: "A curated journey through West African markets and Spanish galleries, brought to the heart of Lille.", 
     },
     header: {
         navbarStart: {
@@ -16,6 +23,6 @@ export const fr = {
     notFoundPage: {
         title: "404 Page non trouvée !",
         callToAction: "Retourner à l'accueil",
-        description: "Page non trouvée.",
+        metaDescription: "Page non trouvée.",
     },
 };
