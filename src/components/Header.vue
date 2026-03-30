@@ -25,11 +25,11 @@
                     </div>
                     <ul
                         tabIndex="-1"
-                        class="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow font-bold"
+                        class="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow font-bold bg-(--neutral) text-(--classic-white)"
                     >
-                        <li><a class="text-lg">{{ $t("header.navbarStart.reserve") }}</a></li>
-                        <li><a class="text-lg">{{ $t("header.navbarStart.news") }}</a></li>
-                        <li><a class="text-lg">{{ $t("header.navbarStart.contact") }}</a></li>
+                        <li><a class="text-lg hover:bg-(--primary)">{{ $t("header.navbarStart.reserve") }}</a></li>
+                        <li><a class="text-lg hover:bg-(--primary)">{{ $t("header.navbarStart.news") }}</a></li>
+                        <li><a class="text-lg hover:bg-(--primary)">{{ $t("header.navbarStart.contact") }}</a></li>
                     </ul>
                 </div>
             </div>
