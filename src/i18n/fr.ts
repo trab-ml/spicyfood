@@ -11,7 +11,7 @@ export const fr = {
         description: "A curated journey through West African markets and Spanish galleries, brought to the heart of Lille.",
         secretSignature: {
             heading: "THE JUICE",
-            subheading: "Our Secret Signature",
+            subheading: "OUR SECRET SIGNATURE",
             description: "Not just a sauce, but the soul of our kitchen. A slow-simmered vegetable meat base that bridges continents.",
             specialityOne: {
                 name: "Process",

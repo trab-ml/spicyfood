@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="navbar shadow-sm text-(--primary)">
+        <div class="navbar px-4 shadow-sm text-(--primary)">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div
