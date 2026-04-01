@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <h1>Here is the footer !</h1>
+        <h1 class="text-center border">Here is the footer !</h1>
     </footer>
 </template>
 

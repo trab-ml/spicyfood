@@ -1,9 +1,9 @@
 <template>
-    <Header class="border border-solid border-black text-center" />
-    <main class="border border-dashed border-black text-center">
+    <Header />
+    <main>
         <RouterView />
     </main>
-    <Footer class="border border-solid border-black text-center" />
+    <Footer />
 </template>
 
 <script setup lang="ts">

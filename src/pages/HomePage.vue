@@ -1,6 +1,6 @@
 <template>
     <section
-        class="px-5 my-8 p-2 text-start bg-(--light-pink) border border-amber-400"
+        class="px-5 my-8 p-2 text-start bg-(--light-pink)"
     >
         <span class="badge bg-(--secondary) text-(--classic-white)">{{
             $t("homepage.label")
@@ -91,7 +91,7 @@
             </div>
         </div>
     </section>
-    <div class="px-5 py-6 text-left">
+    <div class="my-4 px-6 py-6 text-left">
         <div class="flex items-center justify-between">
             <h2 class="text-4xl font-bold">
                 {{ $t("homepage.menu.heading") }}
@@ -101,35 +101,33 @@
                 >{{ $t("homepage.menu.mostPopulars") }}</span
             >
         </div>
-        <div class="grid grid-cols-3 gap-4 my-6 border border-amber-400">
-            <div class="row-span-2 col-span-2">
+        <div class="w--100 grid grid-cols-3 grid-flow-dense gap-4 my-6">
+            <div class="col-span-2 row-span-2">
                 <img
                     src="/attieke-plantains-poisson.png"
                     alt="attieke plantains poisson"
                     class="object-cover w-100 h-50 rounded-[4rem]"
                 />
-                <!-- <h4>{{ $t("homepage.menu.dishOne.name") }}</h4>
-                <p>{{ $t("homepage.menu.dishOne.description") }}</p> -->
             </div>
-            <div class="row-span-1 col--span-1 border-4 border-(--primary)">
+            <div>
                 <img
                     src="/burger-bananes-plantains.png"
                     alt="burger bananes plantains"
                     class="rounded-4xl"
                 />
             </div>
-            <div class="col-span-2">
+            <div class="col-span-2 row-span-2">
                 <img
                     src="/tcheboudiene-poisson.png"
                     alt="tcheboudiene poisson"
                     class="object-cover w-100 h-50 rounded-[4rem]"
                 />
             </div>
-            <div class="row-span-2 col-span-1 border-4 border-(--primary)">
+            <div class="row-span-3 col-start-3">
                 <img
                     src="/sauce-mafe-poulet.png"
                     alt="sauce mafe poulet"
-                    class="object-cover h-50 rounded-4xl"
+                    class="object-cover h-full rounded--4xl"
                 />
             </div>
         </div>
