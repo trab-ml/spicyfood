@@ -12,7 +12,7 @@
                 $t("homepage.headingOne.partThree")
             }}</span>
         </h1>
-        <span class="text-lg text-(--light-dark)">{{
+        <span class="text-lg text-(--light-dark) tracking-widest">{{
             $t("homepage.description")
         }}</span>
         <span class="flex w-full justify-between mt-5 text-(--primary)"
@@ -38,7 +38,38 @@
             {{ $t("homepage.secretSignature.subheading") }}
             <span class="inline-block w-8 ml-1 mb-0.5 border-t border-2" />
         </p>
-        <p>{{ $t("homepage.secretSignature.description") }}</p>
+        <p class="text-lg tracking-widest">
+            {{ $t("homepage.secretSignature.description") }}
+        </p>
+
+        <div class="flex mt-12 gap-4">
+            <div class="card bg-base-100 w-1/2 shadow-sm rounded-2xl tracking-wide">
+                <figure class="mt-4 px-4">
+                    <img
+                        src="/vegetable-meat-sauce.png"
+                        alt="vegetable meat sauce"
+                        class="rounded-2xl"
+                    />
+                </figure>
+                <div class="card-body my-4 px-4 py-0 text-sm">
+                    <h4 class="card-title text-sm text-(--primary)">{{ $t("homepage.secretSignature.specialityOne.name") }}</h4>
+                    <p class="font-extrabold">{{ $t("homepage.secretSignature.specialityOne.description") }}</p>
+                </div>
+            </div>
+            <div class="card bg-base-100 w-1/2 mt-12 shadow-sm rounded-2xl tracking-wide">
+                <figure class="mt-4 px-4">
+                    <img
+                        src="/fruit-juice.png"
+                        alt="fruit juice"
+                        class="rounded-2xl"
+                    />
+                </figure>
+                <div class="card-body my-4 px-4 py-0 text-sm">
+                    <h4 class="card-title text-sm text-(--primary)">{{ $t("homepage.secretSignature.specialityTwo.name") }}</h4>
+                    <p class="font-extrabold">{{ $t("homepage.secretSignature.specialityTwo.description") }}</p>
+                </div>
+            </div>
+        </div>
     </section>
 </template>
 
