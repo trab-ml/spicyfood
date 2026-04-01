@@ -21,7 +21,21 @@ export const fr = {
                 name: "ESSENCE",
                 description: "Spiced Roots"
             },
-        }
+        },
+        menu: {
+            heading: "THE MENU",
+            mostPopulars: "MOST POPULARS",
+            dishOne: {
+                name: "Attiéké",
+                description: "Cassava grain",
+                label: "Ivory Coast",
+            },
+            dishTwo: {
+                name: "Tchèbe",
+                description: "The legendary Thieboudienne, perfected with Lille's local garden harvest.",
+                label: "SENEGAL HERITAGE",
+            },
+        },
     },
     header: {
         navbarStart: {

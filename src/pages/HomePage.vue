@@ -43,7 +43,9 @@
         </p>
 
         <div class="flex mt-12 gap-4">
-            <div class="card bg-base-100 w-1/2 shadow-sm rounded-2xl tracking-wide">
+            <div
+                class="card bg-base-100 w-1/2 shadow-sm rounded-2xl tracking-wide"
+            >
                 <figure class="mt-4 px-4">
                     <img
                         src="/vegetable-meat-sauce.png"
@@ -52,11 +54,21 @@
                     />
                 </figure>
                 <div class="card-body my-4 px-4 py-0 text-sm">
-                    <h4 class="card-title text-sm text-(--primary)">{{ $t("homepage.secretSignature.specialityOne.name") }}</h4>
-                    <p class="font-extrabold">{{ $t("homepage.secretSignature.specialityOne.description") }}</p>
+                    <h4 class="card-title text-sm text-(--primary)">
+                        {{ $t("homepage.secretSignature.specialityOne.name") }}
+                    </h4>
+                    <p class="font-extrabold">
+                        {{
+                            $t(
+                                "homepage.secretSignature.specialityOne.description",
+                            )
+                        }}
+                    </p>
                 </div>
             </div>
-            <div class="card bg-base-100 w-1/2 mt-12 shadow-sm rounded-2xl tracking-wide">
+            <div
+                class="card bg-base-100 w-1/2 mt-12 shadow-sm rounded-2xl tracking-wide"
+            >
                 <figure class="mt-4 px-4">
                     <img
                         src="/fruit-juice.png"
@@ -65,12 +77,63 @@
                     />
                 </figure>
                 <div class="card-body my-4 px-4 py-0 text-sm">
-                    <h4 class="card-title text-sm text-(--primary)">{{ $t("homepage.secretSignature.specialityTwo.name") }}</h4>
-                    <p class="font-extrabold">{{ $t("homepage.secretSignature.specialityTwo.description") }}</p>
+                    <h4 class="card-title text-sm text-(--primary)">
+                        {{ $t("homepage.secretSignature.specialityTwo.name") }}
+                    </h4>
+                    <p class="font-extrabold">
+                        {{
+                            $t(
+                                "homepage.secretSignature.specialityTwo.description",
+                            )
+                        }}
+                    </p>
                 </div>
             </div>
         </div>
     </section>
+    <div class="px-5 py-6 text-left">
+        <div class="flex items-center justify-between">
+            <h2 class="text-4xl font-bold">
+                {{ $t("homepage.menu.heading") }}
+            </h2>
+            <span
+                class="p-1 text-sm text-(--primary) font-bold tracking-wide border rounded-md"
+                >{{ $t("homepage.menu.mostPopulars") }}</span
+            >
+        </div>
+        <div class="grid grid-cols-3 gap-4 my-6 border border-amber-400">
+            <div class="row-span-2 col-span-2">
+                <img
+                    src="/attieke-plantains-poisson.png"
+                    alt="attieke plantains poisson"
+                    class="object-cover w-100 h-50 rounded-[4rem]"
+                />
+                <!-- <h4>{{ $t("homepage.menu.dishOne.name") }}</h4>
+                <p>{{ $t("homepage.menu.dishOne.description") }}</p> -->
+            </div>
+            <div class="row-span-1 col--span-1 border-4 border-(--primary)">
+                <img
+                    src="/burger-bananes-plantains.png"
+                    alt="burger bananes plantains"
+                    class="rounded-4xl"
+                />
+            </div>
+            <div class="col-span-2">
+                <img
+                    src="/tcheboudiene-poisson.png"
+                    alt="tcheboudiene poisson"
+                    class="object-cover w-100 h-50 rounded-[4rem]"
+                />
+            </div>
+            <div class="row-span-2 col-span-1 border-4 border-(--primary)">
+                <img
+                    src="/sauce-mafe-poulet.png"
+                    alt="sauce mafe poulet"
+                    class="object-cover h-50 rounded-4xl"
+                />
+            </div>
+        </div>
+    </div>
 </template>
 
 <script setup lang="ts">
