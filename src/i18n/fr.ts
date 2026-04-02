@@ -27,13 +27,23 @@ export const fr = {
             mostPopulars: "MOST POPULARS",
             dishOne: {
                 name: "Attiéké",
-                description: "Cassava grain",
-                label: "Ivory Coast",
+                description: "The legendary Cassava grain.",
+                label: "West Africa",
             },
             dishTwo: {
+                name: "Plantain's Burger",
+                description: "The amazing Plantain's Burger (greater bananas:).",
+                label: "Greater Antilles",
+            },
+            dishThree: {
                 name: "Tchèbe",
-                description: "The legendary Thieboudienne, perfected with Lille's local garden harvest.",
-                label: "SENEGAL HERITAGE",
+                description: "The legendary Thieboudienne.",
+                label: "West Africa",
+            },
+            dishFour: {
+                name: "Mafé",
+                description: "The phenomenal Mafé, made from peanut paste.",
+                label: "West Africa",
             },
         },
     },
