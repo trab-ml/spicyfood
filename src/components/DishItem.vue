@@ -1,13 +1,13 @@
 <template>
-    <div class="">
+    <div :class="dish.boxClass">
         <img
-            src=""
-            alt=""
-            class=""
+            :src="dish.imgSrc"
+            :alt="dish.imgAlt"
+            :class="dish.imgClass"
         />
         <div class="flex justify-center -mt-5">
             <div
-                class=""
+                :class="dish.dropdownClass"
             >
                 <div tabindex="0" role="button" class="text-(--primary)">
                     <svg
@@ -30,8 +30,8 @@
                     class="card card-sm dropdown-content bg-base-100 rounded-box z-1 w-64 ml-10 shadow-sm"
                 >
                     <div tabindex="0" class="card-body tracking-wide">
-                        <h4 class="card-title text-lg"></h4>
-                        <p class="text-lg font-light"></p>
+                        <h4 class="card-title text-lg">{{ dish.name }}</h4>
+                        <p class="text-lg font-light">{{ dish.description }}</p>
                     </div>
                 </div>
             </div>
@@ -39,4 +39,8 @@
     </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import type DishItemType from '@/types/DishItemType';
+
+const props = defineProps<{dish: DishItemType}>();
+</script>
