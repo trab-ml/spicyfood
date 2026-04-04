@@ -90,9 +90,11 @@
         </div>
     </section>
     <Menu />
+    <SpiceRoots />
 </template>
 
 <script setup lang="ts">
 import SilverwareForkKnife from "vmdi/SilverwareForkKnife.vue";
 import Menu from "@/components/Menu.vue";
+import SpiceRoots from "@/components/SpiceRoots.vue";
 </script>

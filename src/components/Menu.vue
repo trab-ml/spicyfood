@@ -1,5 +1,5 @@
 <template>
-    <div class="my-4 px-6 py-6 text-left">
+    <div class="mt-4 px-6 pt-6 pb-2 text-left">
         <div class="flex items-center justify-between">
             <h2 class="text-4xl font-bold">
                 {{ $t("homepage.menu.heading") }}
@@ -10,7 +10,7 @@
             >
         </div>
         <div class="grid grid-cols-3 grid-flow-dense gap-4 my-6">
-            <DishItem v-for="dish in dishList" :dish="{ ...dish }" />
+            <DishItem v-for="dish in dishList" :dish="{ ...dish }" :hasDropdown=true />
         </div>
     </div>
 </template>

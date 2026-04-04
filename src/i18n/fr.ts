@@ -8,18 +8,20 @@ export const fr = {
             partThree: "Perfection",
         },
         label: "AUTHENTIC FLAVORS",
-        description: "A curated journey through West African markets and Spanish galleries, brought to the heart of Lille.",
+        description:
+            "A curated journey through West African markets and Spanish galleries, brought to the heart of Lille.",
         secretSignature: {
             heading: "THE JUICE",
             subheading: "OUR SECRET SIGNATURE",
-            description: "\"Not just a sauce, but the soul of our kitchen. A slow-simmered vegetable meat base that bridges continents.\"",
+            description:
+                '"Not just a sauce, but the soul of our kitchen. A slow-simmered vegetable meat base that bridges continents."',
             specialityOne: {
                 name: "PROCESS",
-                description: "12-Hour Simmer"
+                description: "12-Hour Simmer",
             },
             specialityTwo: {
                 name: "ESSENCE",
-                description: "Spiced Roots"
+                description: "Spiced Roots",
             },
         },
         menu: {
@@ -34,7 +36,8 @@ export const fr = {
             },
             dishTwo: {
                 name: "Plantain's Burger",
-                description: "The amazing Plantain's Burger (greater bananas:).",
+                description:
+                    "The amazing Plantain's Burger (greater bananas:).",
                 label: "Greater Antilles",
                 imgSrc: "/burger-bananes-plantains.png",
                 imgAlt: "burger bananes plantains",
@@ -54,15 +57,39 @@ export const fr = {
                 imgAlt: "sauce mafé poulet",
             },
         },
+        spiceRoots: {
+            heading: "SPICE ROOTS",
+            subheading: "Mapping the path of flavor from origin to plate.",
+            dishes: [
+                {
+                    name: "Berberé",
+                    description: "ETHIOPIA VIA SPAIN",
+                    imgSrc: "/berbere.png",
+                    imgAlt: "The legendary Berberé",
+                },
+                {
+                    name: "Pimenton",
+                    description: "MURCIA HIGHLANDS",
+                    imgSrc: "/bell-pepper.png",
+                    imgAlt: "bell pepper",
+                },
+                {
+                    name: "Turmeric",
+                    description: "LAGOS MARKETS",
+                    imgSrc: "/turmeric.png",
+                    imgAlt: "turmeric",
+                },
+            ],
+        },
     },
     header: {
         navbarStart: {
             reserve: "Réserver",
             news: "Actualités",
-            contact: "Contactez-nous"
+            contact: "Contactez-nous",
         },
         navbarCenter: {
-            logoText: "Spicy Food"
+            logoText: "Spicy Food",
         },
     },
     notFoundPage: {

@@ -1,9 +1,9 @@
 export default interface DishItemType {
-    boxClass: string;
+    boxClass?: string;
     name: string;
     description: string;
     imgSrc: string;
     imgAlt: string;
-    imgClass: string;
-    dropdownClass: string;
+    imgClass?: string;
+    dropdownClass?: string;
 };

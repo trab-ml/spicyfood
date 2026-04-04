@@ -5,7 +5,7 @@
             :alt="dish.imgAlt"
             :class="dish.imgClass"
         />
-        <div class="flex justify-center -mt-5">
+        <div v-if="hasDropdown" class="flex justify-center -mt-5">
             <div
                 :class="dish.dropdownClass"
             >
@@ -36,11 +36,12 @@
                 </div>
             </div>
         </div>
+        <!-- V-ELSE IN SpiceRoots dish mode -->
     </div>
 </template>
 
 <script setup lang="ts">
 import type DishItemType from '@/types/DishItemType';
 
-const props = defineProps<{dish: DishItemType}>();
+const props = defineProps<{dish: DishItemType, hasDropdown: boolean}>();
 </script>
