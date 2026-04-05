@@ -1,6 +1,6 @@
 <template>
     <Header />
-    <main>
+    <main class="overflow-x-hidden">
         <RouterView />
     </main>
     <Footer />

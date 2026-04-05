@@ -6,7 +6,14 @@
         <p class="my-4 text-sm font-light">
             {{ $t("homepage.spiceRoots.subheading") }}
         </p>
-        <DishItem v-for="dish in spiceDishList" :dish="{ ...dish }" :hasDropdown=false />
+
+        <div class="carousel rounded-box">
+            <DishItem
+                v-for="dish in spiceDishList"
+                :dish="{ ...dish }"
+                :hasDropdown="false"
+            />
+        </div>
     </section>
 </template>
 

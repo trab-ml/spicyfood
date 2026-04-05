@@ -1,14 +1,8 @@
 <template>
-    <div :class="dish.boxClass">
-        <img
-            :src="dish.imgSrc"
-            :alt="dish.imgAlt"
-            :class="dish.imgClass"
-        />
-        <div v-if="hasDropdown" class="flex justify-center -mt-5">
-            <div
-                :class="dish.dropdownClass"
-            >
+    <div v-if="hasDropdown" :class="dish.boxClass">
+        <img :src="dish.imgSrc" :alt="dish.imgAlt" :class="dish.imgClass" />
+        <div class="flex justify-center -mt-5">
+            <div :class="dish.dropdownClass">
                 <div tabindex="0" role="button" class="text-(--primary)">
                     <svg
                         tabindex="0"
@@ -36,12 +30,22 @@
                 </div>
             </div>
         </div>
-        <!-- V-ELSE IN SpiceRoots dish mode -->
+    </div>
+    <div v-else class="carousel-item flex-col gap-1.5 overflow-hidden">
+        <img
+            :src="dish.imgSrc"
+            :alt="dish.imgAlt"
+            :class="`${dish.imgClass} rounded-2xl h-40 mr-4 sm:h-99`"
+        />
+        <div class="tracking-wide">
+            <h4 class="card-title text-sm sm:text-lg">{{ dish.name }}</h4>
+            <p class="text-sm sm:text-lg font-light">{{ dish.description }}</p>
+        </div>
     </div>
 </template>
 
 <script setup lang="ts">
-import type DishItemType from '@/types/DishItemType';
+import type DishItemType from "@/types/DishItemType";
 
-const props = defineProps<{dish: DishItemType, hasDropdown: boolean}>();
+const props = defineProps<{ dish: DishItemType; hasDropdown: boolean }>();
 </script>
