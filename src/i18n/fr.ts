@@ -81,6 +81,11 @@ export const fr = {
                 },
             ],
         },
+        callOfAction: {
+            heading: "CRAFT YOUR CHRONICLE",
+            bookMsg: "BOOK A TABLE IN LILLE",
+            description: "Limited seating. Infinite flavor."
+        }
     },
     header: {
         navbarStart: {

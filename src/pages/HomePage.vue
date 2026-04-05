@@ -91,10 +91,25 @@
     </section>
     <Menu />
     <SpiceRoots />
+    <section class="px-5 py-16 text-center">
+        <span
+            class="relative inline-block rounded-4xl p-4 w-fit bg-(--primary)/25"
+            ><calendar-month-outline class="text-(--primary)"
+        /></span>
+        <h2 class="mt-4 text-4xl font-black">
+            {{ $t("homepage.callOfAction.heading") }}
+        </h2>
+        <a
+            class="mt-6 mb-4 btn rounded-xl text-lg text-(--classic-white) bg-(--primary) py-8 p-12 shadow-xl shadow-(color:--primary)/50 md:text-lg"
+            >{{ $t("homepage.callOfAction.bookMsg") }}</a
+        >
+        <p>{{ $t("homepage.callOfAction.description") }}</p>
+    </section>
 </template>
 
 <script setup lang="ts">
 import SilverwareForkKnife from "vmdi/SilverwareForkKnife.vue";
+import CalendarMonthOutline from "vmdi/CalendarMonthOutline.vue";
 import Menu from "@/components/Menu.vue";
 import SpiceRoots from "@/components/SpiceRoots.vue";
 </script>
