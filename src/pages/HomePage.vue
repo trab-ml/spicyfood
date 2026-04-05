@@ -100,7 +100,7 @@
             {{ $t("homepage.callOfAction.heading") }}
         </h2>
         <a
-            class="mt-6 mb-4 btn rounded-xl text-lg text-(--classic-white) bg-(--primary) py-8 p-12 shadow-xl shadow-(color:--primary)/50 md:text-lg"
+            class="mt-6 mb-4 btn rounded-xl text-lg text-(--classic-white) bg-(--primary) py-8 px-12 shadow-xl shadow-(color:--primary)/50 md:text-lg"
             >{{ $t("homepage.callOfAction.bookMsg") }}</a
         >
         <p>{{ $t("homepage.callOfAction.description") }}</p>

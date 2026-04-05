@@ -1,5 +1,15 @@
 export const fr = {
     abbreviation: "Fr",
+    header: {
+        navbarStart: {
+            reserve: "Réserver",
+            news: "Actualités",
+            contact: "Contactez-nous",
+        },
+        navbarCenter: {
+            logoText: "Spicy Food",
+        },
+    },
     homepage: {
         metaDescription: "Site web de Spicy Food.",
         headingOne: {
@@ -84,18 +94,13 @@ export const fr = {
         callOfAction: {
             heading: "CRAFT YOUR CHRONICLE",
             bookMsg: "BOOK A TABLE IN LILLE",
-            description: "Limited seating. Infinite flavor."
-        }
+            description: "Limited seating. Infinite flavor.",
+        },
     },
-    header: {
-        navbarStart: {
-            reserve: "Réserver",
-            news: "Actualités",
-            contact: "Contactez-nous",
-        },
-        navbarCenter: {
-            logoText: "Spicy Food",
-        },
+    footer: {
+        policy: "PRIVACY POLICY",
+        privacy: "TERMS OF PRIVACY",
+        copyright: "© Spicy Food Restaurant 2026. All Right Reserved",
     },
     notFoundPage: {
         title: "404 Page non trouvée !",
