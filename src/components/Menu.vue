@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-4 px-6 pt-6 pb-2 text-left">
+    <div id="menu" class="mt-4 px-6 pt-6 pb-2 text-left">
         <div class="flex items-center justify-between">
             <h2 class="text-4xl font-bold">
                 {{ $t("homepage.menu.heading") }}

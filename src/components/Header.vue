@@ -27,23 +27,47 @@
                         tabIndex="-1"
                         class="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow font-bold bg-(--neutral) text-(--classic-white)"
                     >
-                        <li><a class="text-lg hover:bg-(--primary)">
-                            <calendar-edit />
-                            {{ $t("header.navbarStart.reserve") }}</a></li>
-                        <li><a class="text-lg hover:bg-(--primary)">
-                            <update />
-                            {{ $t("header.navbarStart.news") }}</a></li>
-                        <li><a class="text-lg hover:bg-(--primary)">
-                            <card-account-phone-outline />
-                            {{ $t("header.navbarStart.contact") }}</a></li>
+                        <li>
+                            <a
+                                class="text-lg hover:bg-(--primary)"
+                                href="#footer"
+                            >
+                                <calendar-edit />
+                                {{ $t("header.navbarStart.reserve") }}</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="text-lg hover:bg-(--primary)"
+                                href="#menu"
+                            >
+                                <update />
+                                {{ $t("header.navbarStart.news") }}</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                class="text-lg hover:bg-(--primary)"
+                                href="#footer"
+                            >
+                                <card-account-phone-outline />
+                                {{ $t("header.navbarStart.contact") }}</a
+                            >
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="navbar-center me-10 sm:me-0">
-                <a class="inline-block text-2xl font--extrabold font-[1000]">{{ $t("header.navbarCenter.logoText") }}</a>
+                <a class="inline-block text-2xl font--extrabold font-[1000]">{{
+                    $t("header.navbarCenter.logoText")
+                }}</a>
             </div>
             <div class="navbar-end">
-                <a class="btn rounded-xl text-md text-(--classic-white) bg-(--primary) md:text-lg">{{ $t("header.navbarStart.reserve") }}</a>
+                <a
+                    class="btn rounded-xl text-md text-(--classic-white) bg-(--primary) md:text-lg"
+                    href="#footer"
+                    >{{ $t("header.navbarStart.reserve") }}</a
+                >
             </div>
         </div>
     </header>
