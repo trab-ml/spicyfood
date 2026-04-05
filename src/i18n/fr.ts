@@ -98,6 +98,11 @@ export const fr = {
         },
     },
     footer: {
+        email: "contact{'@'}spicyfood.fr",
+        creator: {
+            name: "Made by trab-ml",
+            contact: "https://github.com/trab-ml",
+        },
         policy: "PRIVACY POLICY",
         privacy: "TERMS OF PRIVACY",
         copyright: "© Spicy Food Restaurant 2026. All Right Reserved",

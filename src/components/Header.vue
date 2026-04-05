@@ -27,9 +27,15 @@
                         tabIndex="-1"
                         class="menu menu-sm dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow font-bold bg-(--neutral) text-(--classic-white)"
                     >
-                        <li><a class="text-lg hover:bg-(--primary)">{{ $t("header.navbarStart.reserve") }}</a></li>
-                        <li><a class="text-lg hover:bg-(--primary)">{{ $t("header.navbarStart.news") }}</a></li>
-                        <li><a class="text-lg hover:bg-(--primary)">{{ $t("header.navbarStart.contact") }}</a></li>
+                        <li><a class="text-lg hover:bg-(--primary)">
+                            <calendar-edit />
+                            {{ $t("header.navbarStart.reserve") }}</a></li>
+                        <li><a class="text-lg hover:bg-(--primary)">
+                            <update />
+                            {{ $t("header.navbarStart.news") }}</a></li>
+                        <li><a class="text-lg hover:bg-(--primary)">
+                            <card-account-phone-outline />
+                            {{ $t("header.navbarStart.contact") }}</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,4 +49,8 @@
     </header>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import CardAccountPhoneOutline from "vmdi/CardAccountPhoneOutline.vue";
+import Update from "vmdi/Update.vue";
+import CalendarEdit from "vmdi/CalendarEdit.vue";
+</script>
