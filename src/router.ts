@@ -10,6 +10,11 @@ const routes = [
     meta: { description: "homepage.metaDescription" },
   },
   {
+    path: `/${import.meta.env.VITE_REPO_NAME}/`,
+    name: "homePathTwo",
+    component: HomePage,
+  },
+  {
     path: `/:pathMatch(.*)*`,
     name: "notFoundPage",
     component: NotFoundPage,
