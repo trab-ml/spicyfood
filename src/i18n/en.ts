@@ -41,7 +41,6 @@ export const en = {
                 name: "Attiéké",
                 description: "The legendary Cassava couscous.",
                 label: "West Africa",
-                imgSrc: "/attieke-plantains-poisson.png",
                 imgAlt: "attiéké plantains fish",
             },
             dishTwo: {
@@ -49,21 +48,18 @@ export const en = {
                 description:
                     "The amazing Plantain's Burger (greater bananas:).",
                 label: "Greater Antilles",
-                imgSrc: "/burger-bananes-plantains.png",
                 imgAlt: "burger plantains",
             },
             dishThree: {
                 name: "Tchèbe",
                 description: "The legendary Thieboudienne.",
                 label: "West Africa",
-                imgSrc: "/tcheboudiene-poisson.png",
                 imgAlt: "tcheboudiene fish",
             },
             dishFour: {
                 name: "Mafé",
                 description: "The phenomenal Mafé, made from peanut paste.",
                 label: "West Africa",
-                imgSrc: "/sauce-mafe-poulet.png",
                 imgAlt: "sauce mafé chicken",
             },
         },
@@ -74,19 +70,16 @@ export const en = {
                 {
                     name: "Berberé",
                     description: "ETHIOPIA VIA SPAIN",
-                    imgSrc: "/berbere.png",
                     imgAlt: "The legendary Berberé",
                 },
                 {
                     name: "Pimenton",
                     description: "MURCIA HIGHLANDS",
-                    imgSrc: "/bell-pepper.png",
                     imgAlt: "bell pepper",
                 },
                 {
                     name: "Turmeric",
                     description: "LAGOS MARKETS",
-                    imgSrc: "/turmeric.png",
                     imgAlt: "turmeric",
                 },
             ],

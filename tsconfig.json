@@ -9,7 +9,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "icons": ["./node_modules/vue-material-design-icons"],
+      "@images/*": ["./src/assets/images/*"],
+      "@vmdi/*": ["./node_modules/vue-material-design-icons/*"],
     }
   },
 }

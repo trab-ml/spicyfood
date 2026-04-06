@@ -13,7 +13,8 @@ export default defineConfig(({ mode }) => {
         resolve: {
             alias: {
                 "@": path.resolve(__dirname, "./src"),
-                vmdi: path.resolve(
+                "@images": path.resolve(__dirname, "./src/assets/images"),
+                "@vmdi": path.resolve(
                     __dirname,
                     "node_modules/vue-material-design-icons",
                 ),
