@@ -1,0 +1,115 @@
+export const fr = {
+    abbreviation: "Fr",
+    header: {
+        navbarStart: {
+            reserve: "Réserver",
+            news: "Actualités",
+            contact: "Contactez-nous",
+        },
+        navbarCenter: {
+            logoText: "Spicy Food",
+        },
+    },
+    homepage: {
+        metaDescription: "Site web de Spicy Food.",
+        headingOne: {
+            partOne: "Épicé",
+            partTwo: "à la",
+            partThree: "Perfection",
+        },
+        label: "SAVEURS AUTHENTIQUES",
+        description:
+            "Un voyage culinaire à travers les marchés d’Afrique de l’Ouest et les galeries espagnoles, au cœur de Lille.",
+        secretSignature: {
+            heading: "LE JUS",
+            subheading: "NOTRE SIGNATURE SECRÈTE",
+            description:
+                '"Pas simplement une sauce, mais l’âme de notre cuisine. Une base mijotée lentement, à base de légumes et de viande, qui relie les continents."',
+            specialityOne: {
+                name: "PROCÉDÉ",
+                description: "Mijoté pendant 12 heures",
+            },
+            specialityTwo: {
+                name: "ESSENCE",
+                description: "Racines épicées",
+            },
+        },
+        menu: {
+            heading: "LE MENU",
+            mostPopulars: "LES PLUS POPULAIRES",
+            dishOne: {
+                name: "Attiéké",
+                description: "Le légendaire couscous de manioc.",
+                label: "Afrique de l'ouest",
+                imgSrc: "/attieke-plantains-poisson.png",
+                imgAlt: "attiéké plantains poisson",
+            },
+            dishTwo: {
+                name: "Plantains au Burger",
+                description:
+                    "L'incroyable burger à base de bananes plantain.",
+                label: "Grandes Antilles",
+                imgSrc: "/burger-bananes-plantains.png",
+                imgAlt: "burger bananes plantains",
+            },
+            dishThree: {
+                name: "Tchèbe",
+                description: "Le légendaire thiéboudiène.",
+                label: "Afrique de l'ouest",
+                imgSrc: "/tcheboudiene-poisson.png",
+                imgAlt: "tcheboudiene poisson",
+            },
+            dishFour: {
+                name: "Mafé",
+                description: "Le fameux mafé à base de pâte d'arachide.",
+                label: "Afrique de l'ouest",
+                imgSrc: "/sauce-mafe-poulet.png",
+                imgAlt: "sauce mafé poulet",
+            },
+        },
+        spiceRoots: {
+            heading: "ORIGINES DES ÉPICES",
+            subheading: "Cartographier le voyage des saveurs, de l'origine à l'assiette.",
+            dishes: [
+                {
+                    name: "Berberé",
+                    description: "ETHIOPIE VIA ESPAGNE",
+                    imgSrc: "/berbere.png",
+                    imgAlt: "Le légendaire berbéré",
+                },
+                {
+                    name: "Pimenton",
+                    description: "HAUTES TERRES DE MURCIE",
+                    imgSrc: "/bell-pepper.png",
+                    imgAlt: "bell pepper",
+                },
+                {
+                    name: "Curcuma",
+                    description: "MARCHÉS DE LAGOS",
+                    imgSrc: "/turmeric.png",
+                    imgAlt: "turmeric",
+                },
+            ],
+        },
+        callOfAction: {
+            heading: "CRÉEZ VOTRE EXPÉRIENCE",
+            bookMsg: "RÉSERVER UNE TABLE À LILLE",
+            description: "Places limitées. Saveurs infinies.",
+        },
+    },
+    footer: {
+        email: "contact{'@'}spicyfood.fr",
+        creator: {
+            name: "Créé par trab-ml",
+            contact: "https://github.com/trab-ml",
+        },
+        policy: "POLITIQUE DE CONFIDENTIALITÉ",
+        privacy: "CONDITIONS DE CONFIDENTIALITÉ",
+        copyright: "© Spicy Food Restaurant 2026. Tous droits réservés",
+    },
+    notFoundPage: {
+        title: "404 Page non trouvée !",
+        callToAction: "Retourner à l'accueil",
+        metaDescription: "Page non trouvée.",
+    },
+};
