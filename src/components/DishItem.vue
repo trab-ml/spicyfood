@@ -39,7 +39,7 @@
         />
         <div class="tracking-wide">
             <h4 class="card-title text-sm sm:text-lg">{{ dish.name }}</h4>
-            <p class="text-sm sm:text-lg font-light">{{ dish.description }}</p>
+            <p class="text-xs sm:text-lg font-light">{{ dish.description }}</p>
         </div>
     </div>
 </template>

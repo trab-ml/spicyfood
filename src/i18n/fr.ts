@@ -19,12 +19,12 @@ export const fr = {
         },
         label: "SAVEURS AUTHENTIQUES",
         description:
-            "Un voyage culinaire à travers les marchés d’Afrique de l’Ouest et les galeries espagnoles, au cœur de Lille.",
+            "Un voyage culinaire à travers les marchés d'Afrique de l'Ouest et les galeries espagnoles, au cœur de Lille.",
         secretSignature: {
             heading: "LE JUS",
             subheading: "NOTRE SIGNATURE SECRÈTE",
             description:
-                '"Pas simplement une sauce, mais l’âme de notre cuisine. Une base mijotée lentement, à base de légumes et de viande, qui relie les continents."',
+                '"Pas simplement une sauce, mais l\'âme de notre cuisine. Une base mijotée lentement, à base de légumes et de viande, qui relie les continents."',
             specialityOne: {
                 name: "PROCÉDÉ",
                 description: "Mijoté pendant 12 heures",
@@ -41,7 +41,6 @@ export const fr = {
                 name: "Attiéké",
                 description: "Le légendaire couscous de manioc.",
                 label: "Afrique de l'ouest",
-                imgSrc: "/attieke-plantains-poisson.png",
                 imgAlt: "attiéké plantains poisson",
             },
             dishTwo: {
@@ -49,21 +48,18 @@ export const fr = {
                 description:
                     "L'incroyable burger à base de bananes plantain.",
                 label: "Grandes Antilles",
-                imgSrc: "/burger-bananes-plantains.png",
                 imgAlt: "burger bananes plantains",
             },
             dishThree: {
                 name: "Tchèbe",
                 description: "Le légendaire thiéboudiène.",
                 label: "Afrique de l'ouest",
-                imgSrc: "/tcheboudiene-poisson.png",
                 imgAlt: "tcheboudiene poisson",
             },
             dishFour: {
                 name: "Mafé",
                 description: "Le fameux mafé à base de pâte d'arachide.",
                 label: "Afrique de l'ouest",
-                imgSrc: "/sauce-mafe-poulet.png",
                 imgAlt: "sauce mafé poulet",
             },
         },
@@ -74,19 +70,16 @@ export const fr = {
                 {
                     name: "Berberé",
                     description: "ETHIOPIE VIA ESPAGNE",
-                    imgSrc: "/berbere.png",
                     imgAlt: "Le légendaire berbéré",
                 },
                 {
                     name: "Pimenton",
                     description: "HAUTES TERRES DE MURCIE",
-                    imgSrc: "/bell-pepper.png",
                     imgAlt: "bell pepper",
                 },
                 {
                     name: "Curcuma",
                     description: "MARCHÉS DE LAGOS",
-                    imgSrc: "/turmeric.png",
                     imgAlt: "turmeric",
                 },
             ],

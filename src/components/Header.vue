@@ -74,7 +74,7 @@
 </template>
 
 <script setup lang="ts">
-import CardAccountPhoneOutline from "vmdi/CardAccountPhoneOutline.vue";
-import Update from "vmdi/Update.vue";
-import CalendarEdit from "vmdi/CalendarEdit.vue";
+import CardAccountPhoneOutline from "@vmdi/CardAccountPhoneOutline.vue";
+import Update from "@vmdi/Update.vue";
+import CalendarEdit from "@vmdi/CalendarEdit.vue";
 </script>
