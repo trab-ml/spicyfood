@@ -3,7 +3,7 @@
         id="footer"
         class="px-7 my-4 text-center text-sm text-black/50 tracking-widest border-t border-(--primary)/40"
     >
-        <nav class="flex flex-col py-5">
+        <nav class="flex flex-col items-center py-5">
             <a class="hover:text-(--primary)" :href="`mailto:${$t('footer.email')}`">{{
                 $t("footer.email")
             }}</a>
