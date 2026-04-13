@@ -23,7 +23,7 @@
         >
             <img
                 class="ml-8 rounded-l-[6rem] object-cover w-full h-full"
-                src="/src/assets/images/spicy-african-dish.png"
+                src="/images/spicy-african-dish.png"
                 alt="Gourmet spicy African dish with plantains and vibrant garnish"
             />
         </div>
@@ -46,7 +46,7 @@
             >
                 <figure class="mt-4 px-4">
                     <img
-                        src="/src/assets/images/vegetable-meat-sauce.png"
+                        src="/images/vegetable-meat-sauce.png"
                         alt="vegetable meat sauce"
                         class="rounded-2xl"
                     />
@@ -69,7 +69,7 @@
             >
                 <figure class="mt-4 px-4">
                     <img
-                        src="/src/assets/images/fruit-juice.png"
+                        src="/images/fruit-juice.png"
                         alt="fruit juice"
                         class="rounded-2xl"
                     />

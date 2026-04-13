@@ -9,15 +9,8 @@
 
         <div class="carousel rounded-box">
             <DishItem
-                :dish="{ ...spiceDishList[0], imgSrc: imgBerbere}"
-                :hasDropdown="false"
-            />
-            <DishItem
-                :dish="{ ...spiceDishList[1], imgSrc: imgBellPepper}"
-                :hasDropdown="false"
-            />
-            <DishItem
-                :dish="{ ...spiceDishList[2], imgSrc: imgTurmeric}"
+                v-for="dishParam in spiceDishList"
+                :dish="{ ...dishParam }"
                 :hasDropdown="false"
             />
         </div>
@@ -29,9 +22,6 @@ import DishItem from "./DishItem.vue";
 import type DishItemType from "@/types/DishItemType";
 import { useI18n } from "vue-i18n";
 import { computed } from "vue";
-import imgBerbere from "@images/berbere.png";
-import imgBellPepper from "@images/bell-pepper.png";
-import imgTurmeric from "@images/turmeric.png";
 
 const { tm } = useI18n();
 
