@@ -1,5 +1,5 @@
 <template>
-    <section class="px-5 my-8 p-2 text-start bg-(--light-pink)">
+    <section class="px-5 my-8 p-2 text-start text-black  bg-(--light-pink)">
         <span class="badge bg-(--secondary) text-(--classic-white)">{{
             $t("homepage.label")
         }}</span>
@@ -15,7 +15,7 @@
         }}</span>
         <span class="flex w-full justify-between mt-5 text-(--primary)"
             ><span class="inline w-3/6 mt-2.5 border-t"></span>
-            <silverware-fork-knife class="inline mx-4 text-(--primary)" />
+            <silverware-fork-knife class="inline mx-4"/>
             <span class="inline w-3/6 mt-2.5 border-t"></span
         ></span>
         <div
@@ -28,7 +28,7 @@
             />
         </div>
     </section>
-    <section class="px-5 py-12 bg-(--light-pink) text-left">
+    <section class="px-5 py-12 bg-(--light-pink) text-left text-black">
         <h2 class="text-4xl font-black">
             {{ $t("homepage.secretSignature.heading") }}
         </h2>
@@ -42,7 +42,7 @@
 
         <div class="flex mt-12 gap-4">
             <div
-                class="card bg-base-100 w-1/2 shadow-sm rounded-2xl tracking-wide"
+                class="card bg-(--classic-white) w-1/2 shadow-sm rounded-2xl tracking-wide"
             >
                 <figure class="mt-4 px-4">
                     <img
@@ -65,7 +65,7 @@
                 </div>
             </div>
             <div
-                class="card bg-base-100 w-1/2 mt-12 shadow-sm rounded-2xl tracking-wide"
+                class="card bg-(--classic-white) w-1/2 mt-12 shadow-sm rounded-2xl tracking-wide"
             >
                 <figure class="mt-4 px-4">
                     <img
@@ -89,9 +89,9 @@
             </div>
         </div>
     </section>
-    <Menu />
+    <Menu class="text-black" />
     <SpiceRoots />
-    <section class="px-5 py-16 text-center">
+    <section class="px-5 py-16 text-center text-black">
         <span
             class="relative inline-block rounded-4xl p-4 w-fit bg-(--primary)/25"
             ><calendar-month-outline class="text-(--primary)"
