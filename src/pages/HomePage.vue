@@ -1,6 +1,6 @@
 <template>
-    <section class="px-5 my-8 p-2 text-start text-black  bg-(--light-pink)">
-        <span class="badge bg-(--secondary) text-(--classic-white)">{{
+    <section class="px-5 my-8 p-2 text-start text-black bg-(--light-pink)">
+        <span id="webpage" class="badge bg-(--secondary) text-(--classic-white)">{{
             $t("homepage.label")
         }}</span>
         <h1 class="my-4 text-6xl font-black">
@@ -15,7 +15,7 @@
         }}</span>
         <span class="flex w-full justify-between mt-5 text-(--primary)"
             ><span class="inline w-3/6 mt-2.5 border-t"></span>
-            <silverware-fork-knife class="inline mx-4"/>
+            <silverware-fork-knife class="inline mx-4" />
             <span class="inline w-3/6 mt-2.5 border-t"></span
         ></span>
         <div
@@ -113,4 +113,7 @@ import SilverwareForkKnife from "@vmdi/SilverwareForkKnife.vue";
 import CalendarMonthOutline from "@vmdi/CalendarMonthOutline.vue";
 import Menu from "@/components/Menu.vue";
 import SpiceRoots from "@/components/SpiceRoots.vue";
+import { useSiteHead } from "@/composables/useSiteHead";
+
+useSiteHead("homepage.metaTitle", "homepage.metaDescription");
 </script>

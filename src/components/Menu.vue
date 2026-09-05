@@ -17,7 +17,7 @@
                     name: $t(`homepage.menu.${dish.id}.name`),
                     description: $t(`homepage.menu.${dish.id}.description`),
                     imgSrc: $t(`homepage.menu.${dish.id}.imgSrc`),
-                    imgAlt: $t('`homepage.menu.${dish.id}.imgAlt`'),
+                    imgAlt: $t(`homepage.menu.${dish.id}.imgAlt`),
                 }"
                 :hasDropdown="true"
             />
