@@ -1,0 +1,15 @@
+# Freelance web developer
+
+> As a full-stack web developer i'm on mission to put technology at service of people by designing reliable, ethical, and accessible web applications. My approach prioritizes performance, security, and maintainability to create sovereign, long-term solutions.
+
+## About the project
+
+- [Homepage of Spicy Food](https://trab-ml.github.io/spicyfood/minimal-readme.md): Minimalist version of the project readme.
+
+## Website Pages
+
+- [homepage](https://trab-ml.github.io/spicyfood/)
+
+## Social Media
+
+- [linkedin page](https://www.linkedin.com/in/bernart0123456789/)
