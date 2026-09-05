@@ -11,7 +11,8 @@ export const fr = {
         },
     },
     homepage: {
-        metaDescription: "Site web de Spicy Food.",
+        metaTitle: "Spicy Food, épicé à la perfection !.",
+        metaDescription: "Un voyage culinaire à travers les marchés d'Afrique de l'Ouest et les galeries espagnoles, au cœur de Lille, Hauts-de-France.",
         headingOne: {
             partOne: "Épicé",
             partTwo: "à la",
@@ -19,7 +20,7 @@ export const fr = {
         },
         label: "SAVEURS AUTHENTIQUES",
         description:
-            "Un voyage culinaire à travers les marchés d'Afrique de l'Ouest et les galeries espagnoles, au cœur de Lille.",
+            "Un voyage culinaire à travers les marchés d'Afrique de l'Ouest et les galeries espagnoles, au cœur de Lille, Hauts-de-France.",
         secretSignature: {
             heading: "LE JUS",
             subheading: "NOTRE SIGNATURE SECRÈTE",
@@ -98,7 +99,9 @@ export const fr = {
         },
     },
     footer: {
-        email: "contact{'@'}spicyfood.fr",
+        websiteUrl: "https://ethicalarchitect.fr/",
+        email: "contact{'@'}ethicalarchitect.fr",
+        linkedinUrl: "https://www.linkedin.com/company/the-ethical-architect",
         creator: {
             name: "Créé par trab-ml",
             contact: "https://github.com/trab-ml",

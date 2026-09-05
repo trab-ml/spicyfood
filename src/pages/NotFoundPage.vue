@@ -10,3 +10,8 @@
         }}</a>
     </div>
 </template>
+
+<script setup lang="ts">
+import { useSiteHead } from "@/composables/useSiteHead";
+useSiteHead("homepage.metaTitle", "homepage.metaDescription");
+</script>

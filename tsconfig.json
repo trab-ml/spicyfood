@@ -6,9 +6,8 @@
   ],
   "compilerOptions": {
     "composite": true,
-    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
+      "@/*": ["./src/*"],
       "@images/*": ["./src/assets/images/*"],
       "@vmdi/*": ["./node_modules/vue-material-design-icons/*"],
     }
